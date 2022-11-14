@@ -24,6 +24,7 @@ public class LoginController {
         System.out.println(payload);
         System.out.println("Test");
         System.out.println("create new branch <jalen>, commit code to this branch");
+        System.out.println("repeat commit to branch <jalen>");
         return "Success";
     }
 }

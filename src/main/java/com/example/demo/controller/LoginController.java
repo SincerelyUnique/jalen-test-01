@@ -1,9 +1,6 @@
 package com.example.demo.controller;
 
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
 
@@ -26,5 +23,11 @@ public class LoginController {
         System.out.println("create new branch <jalen>, commit code to this branch");
         System.out.println("repeat commit to branch <jalen>");
         return "Success";
+    }
+
+    @GetMapping("/test02")
+    public String test02(){
+        System.out.println("test02");
+        return "success";
     }
 }

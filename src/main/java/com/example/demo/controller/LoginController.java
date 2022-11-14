@@ -22,6 +22,7 @@ public class LoginController {
     @PostMapping("/test01")
     public String addRelease(@RequestBody Map<String, Object> payload){
         System.out.println(payload);
+        System.out.println("Test");
         return "Success";
     }
 }

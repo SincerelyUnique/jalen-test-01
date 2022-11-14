@@ -25,9 +25,16 @@ public class LoginController {
         return "Success";
     }
 
+
     @GetMapping("/test02")
     public String test02(){
         System.out.println("test02");
+        return "success";
+    }
+
+    @GetMapping("/test03")
+    public String test03(){
+        System.out.println("master add code");
         return "success";
     }
 }

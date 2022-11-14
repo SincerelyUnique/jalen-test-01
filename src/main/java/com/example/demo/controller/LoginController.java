@@ -23,6 +23,7 @@ public class LoginController {
     public String addRelease(@RequestBody Map<String, Object> payload){
         System.out.println(payload);
         System.out.println("Test");
+        System.out.println("create new branch <jalen>, commit code to this branch");
         return "Success";
     }
 }
